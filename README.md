@@ -5,9 +5,9 @@ A.Calculator that takes two values:
 2. Number of people that will split the bill.
 
 B.Calculator will have 4 options for tipping that will reflect the service:
-1. 10% -- Not Satisfactory
-2. 15% -- Satisfactory
-3. 18% -- Great
+1. 10% -- Bad
+2. 15% -- Good
+3. 18% -- Very Good
 4. 20% -- Excellent
 
 
