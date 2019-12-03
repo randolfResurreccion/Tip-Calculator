@@ -1,0 +1,39 @@
+body {
+    font-family: 'Fjalla One';
+    font-size: 22px;
+    width: 100vw;
+    height: 100vh;
+    background: url(home-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container {
+    /* background: #fefefe; */
+    /* background: url(home-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    width: 400px;
+    height: 500px;
+    background: #222;
+    opacity: .7;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin: -200px 0 0 -200px;
+}
+
+
+header {
+    color: #fefefe;
+    text-align: center;
+}
+
+.calculator {
+    text-align: center;
+}
+
+
