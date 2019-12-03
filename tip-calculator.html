@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="tip-calculator.css">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Tip Calculator</h1>
+        </header>
+        
+        <!-- claculator starts here -->
+        <div class="calculator">
+            <form action="" class="tipForm">
+                <p><label for="">How much was your Bill?</label></p>
+                <p>$ <input type="text" class="bill-amount" placeholder="Amount"></p>
+                <p>How was your service?</p>
+                <select name="" id="serviceEqual">
+                    <option value="0" selected>Tip Options</option>
+                    <option value="0.10">10% -- Bad</option>
+                    <option value="0.15">15% -- Good</option>
+                    <option value="0.18">18% -- Very Good</option>
+                    <option value="0.20">20% -- Excellent</option>
+                </select>
+            </form>
+
+            <p>How Many People are sharing the Bill?</p>
+            <p><input type="text" class="numberOfPeople" placeholder="number of people"></p>
+
+            <button id="calculate">Calculate!!</button>
+        </div>
+
+        <!-- Display total tip -->
+        <div class="totalTip">
+            <sup id="dollar-sign">$</sup><span class="display-tip">0.00</span>
+            <small id="each">each</small>
+            <button class="clear-button">Clear</button>
+        </div>
+
+    </div>
+
+
+    <script src="tip-calculator.js"></script>
+
+
+</body>
+
+</html>
