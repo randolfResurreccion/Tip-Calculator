@@ -16,35 +16,44 @@
         <header>
             <h1>Tip Calculator</h1>
         </header>
-        
+
         <!-- claculator starts here -->
         <div class="calculator">
-            <form action="" class="tipForm">
+            <form action="" id="tipForm">
                 <p><label for="">How much was your Bill?</label></p>
                 <p>$ <input type="text" class="bill-amount" placeholder="Amount"></p>
                 <p>How was your service?</p>
-                <select name="" id="serviceEqual">
+                <select name="" id="tip-options">
                     <option value="0" selected>Tip Options</option>
                     <option value="0.10">10% -- Bad</option>
                     <option value="0.15">15% -- Good</option>
                     <option value="0.18">18% -- Very Good</option>
                     <option value="0.20">20% -- Excellent</option>
                 </select>
+
+                <p>How Many People are sharing the Bill?</p>
+                <p><input type="text" class="number-of-people" placeholder="number of people"></p>
             </form>
 
-            <p>How Many People are sharing the Bill?</p>
-            <p><input type="text" class="numberOfPeople" placeholder="number of people"></p>
+           
 
             <button id="calculate">Calculate!!</button>
         </div>
 
         <!-- Display total tip -->
         <div class="totalTip">
-            <sup id="dollar-sign">$</sup><span class="display-tip">0.00</span>
-            <small id="each">each</small>
-            <button class="clear-button">Clear</button>
+            <div class="result-div">
+                <button class="close-result">x</button>
+                <sup id="dollar-sign">$</sup><span class="display-tip">0.00</span>
+                <small id="each">each</small>
+            </div>
         </div>
 
+        <!-- Warning Div -->
+        <div class="warning">
+            <button class="close">x</button>
+            <p class="warning-text">Please Try Again!!</p>
+        </div>
     </div>
 
 
